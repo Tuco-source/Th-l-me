@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: #f7f7f2;
+        }
+
+        .header {
+            background-color: #2d5a27;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .season-card {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .season-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .spring {
+            border-left: 6px solid #ff9ecd;
+        }
+
+        .summer {
+            border-left: 6px solid #ffcb47;
+        }
+
+        .autumn {
+            border-left: 6px solid #e85d04;
+        }
+
+        .winter {
+            border-left: 6px solid #4361ee;
+        }
+
+        .veggie-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .veggie-item {
+            background: #f0f0f0;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .footer {
+            background-color: #2d5a27;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+
+        .price-tag {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🌱 Les Jardins de Thélème 🌱</h1>
+        <p>Des paniers bio et locaux au fil des saisons</p>
+    </div>
+
+    <div class="container">
+        <div class="season-card spring">
+            <h2>🌸 Panier de Printemps (Mars - Mai)</h2>
+            <p>Le réveil de la nature dans votre assiette !</p>
+            <div class="veggie-list">
+                <span class="veggie-item">🥬 Salades</span>
+                <span class="veggie-item">🥕 Carottes nouvelles</span>
+                <span class="veggie-item">🧅 Oignons nouveaux</span>
+                <span class="veggie-item">🌿 Herbes aromatiques</span>
+                <span class="veggie-item">🥬 Épinards</span>
+                <span class="veggie-item">🥦 Brocolis</span>
+            </div>
+            <div class="price-tag">Petit panier : 15€ / Grand panier : 25€</div>
+        </div>
+
+        <div class="season-card summer">
+            <h2>☀️ Panier d'Été (Juin - Août)</h2>
+            <p>L'explosion des saveurs estivales !</p>
+            <div class="veggie-list">
+                <span class="veggie-item">🍅 Tomates</span>
+                <span class="veggie-item">🫑 Poivrons</span>
+                <span class="veggie-item">🥒 Concombres</span>
+                <span class="veggie-item">🍆 Aubergines</span>
+                <span class="veggie-item">🧄 Ail</span>
+                <span class="veggie-item">🌶️ Piments doux</span>
+            </div>
+            <div class="price-tag">Petit panier : 18€ / Grand panier : 30€</div>
+        </div>
+
+        <div class="season-card autumn">
+            <h2>🍁 Panier d'Automne (Septembre - Novembre)</h2>
+            <p>Les couleurs chaleureuses dans votre cuisine !</p>
+            <div class="veggie-list">
+                <span class="veggie-item">🎃 Potimarrons</span>
+                <span class="veggie-item">🥕 Carottes</span>
+                <span class="veggie-item">🥔 Pommes de terre</span>
+                <span class="veggie-item">🧅 Oignons</span>
+                <span class="veggie-item">🥬 Choux</span>
+                <span class="veggie-item">🍎 Pommes</span>
+            </div>
+            <div class="price-tag">Petit panier : 16€ / Grand panier : 28€</div>
+        </div>
+
+        <div class="season-card winter">
+            <h2>❄️ Panier d'Hiver (Décembre - Février)</h2>
+            <p>Le réconfort des légumes d'hiver !</p>
+            <div class="veggie-list">
+                <span class="veggie-item">🥬 Choux</span>
+                <span class="veggie-item">🥕 Carottes</span>
+                <span class="veggie-item">🥔 Pommes de terre</span>
+                <span class="veggie-item">🧅 Poireaux</span>
+                <span class="veggie-item">🥬 Mâche</span>
+                <span class="veggie-item">🥕 Betteraves</span>
+            </div>
+            <div class="price-tag">Petit panier : 14€ / Grand panier : 24€</div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <h3>📍 Les Jardins de Thélème</h3>
+        <p>🚜 Agriculture Biologique • 🤝 AMAP • 🌱 Local</p>
+        <p>📞 Contactez-nous pour rejoindre notre AMAP !</p>
+    </div>
+</body>
+</html>
